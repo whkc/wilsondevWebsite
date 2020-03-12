@@ -30,9 +30,11 @@
               <a href="/about">About</a>
             </li>
             <li class="<%= current_page.path === 'blog.html' ? 'is-active' : '' %>">
-              <a href="/Projects">Blog</a>
+              <a href="/blog">Blog</a>
             </li>
+            <li><a href="https://www.datocms-assets.com/23861/1584001000-wilsonresume.pdf">Resume</a></li>
           </ul>
+          
           <p class="sidebar__social">
             <% dato.social_profiles.each do |profile| %>
               <a href="<%= profile.url %>" class="social social--<%= profile.profile_type.downcase.gsub(/ +/, '-') %>"></a>
