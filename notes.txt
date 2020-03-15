@@ -1,2 +1,7 @@
 https://www.datocms.com/docs/content-management-api/js-client
 i can use a nodejs client to controll my data
+
+tutorials
+tutorial    -> paras[] ->{desc,img,heading,}
+            -> heading 
+            -> meta i.e. date 
