@@ -127,7 +127,7 @@ GEM
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
-    rack (2.0.8)
+    rack (2.2.3)
     rack-livereload (0.3.17)
       rack
     rb-fsevent (0.10.3)
@@ -149,7 +149,6 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
-    wdm (0.1.1)
     websocket (1.2.8)
 
 PLATFORMS
@@ -163,7 +162,6 @@ DEPENDENCIES
   middleman-minify-html
   middleman-paginate
   redcarpet
-  wdm (>= 0.1.0)
 
 RUBY VERSION
    ruby 2.6.5p114
