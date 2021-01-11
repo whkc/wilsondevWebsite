@@ -133,7 +133,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    redcarpet (3.5.0)
+    redcarpet (3.5.1)
     sassc (2.2.1)
       ffi (~> 1.9)
     sassc (2.2.1-x64-mingw32)
@@ -149,7 +149,6 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
-    wdm (0.1.1)
     websocket (1.2.8)
 
 PLATFORMS
@@ -163,7 +162,6 @@ DEPENDENCIES
   middleman-minify-html
   middleman-paginate
   redcarpet
-  wdm (>= 0.1.0)
 
 RUBY VERSION
    ruby 2.6.5p114
